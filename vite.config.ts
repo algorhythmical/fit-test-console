@@ -34,10 +34,10 @@ export default defineConfig({
                 "**/*",
             ],
             manifest: {
-                "name": "mark's fit test console",
+                "name": "mark's fit test console OLD",
                 "icons": [
                     {
-                        "src": "icons/mftc-icon-192.png",
+                        "src": "icons/mftc-icon-192-OLD.png",
                         "type": "image/png",
                         "sizes": "192x192"
                     }
