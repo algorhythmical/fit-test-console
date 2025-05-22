@@ -21,6 +21,9 @@ export default defineConfig({
     plugins: [
         react(),
         VitePWA({
+            devOptions: {
+                enabled: true, // enable PWA in development
+            },
             // cache all imports
             workbox: {
                 globPatterns: ["**/*"],
