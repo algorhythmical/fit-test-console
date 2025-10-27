@@ -348,13 +348,9 @@ export function getFitFactorCssClass(fitFactor: number | string, hasThisExercise
     }
     if (fitFactor >= 100) {
         // 99+%
-        return "result-cell very-high-fit-score"
-    }
-    if (fitFactor >= 33) {
-        // 33 == 97%
         return "result-cell high-fit-score"
     }
-    if (fitFactor >= 20) {
+    if (fitFactor > 20) {
         // 20 == 95%
         return "result-cell moderate-fit-score"
     }
